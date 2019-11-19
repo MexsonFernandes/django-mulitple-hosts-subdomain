@@ -10,6 +10,12 @@ Host Django apps on multiple subdomains. This repository is just a boilerplate t
 * Install all requirements using `pipenv install` or `pip3 install -r requirements.txt`.
 * Run app using `python manage.py runserver`.
 
+## How to check?
+
+* open default app at http://www.localhost:8000
+* open admin at http://admin.localhost:8000
+* open installed app at http://app2.localhost:8000
+
 ## How to add hosts?
 
 * Add new app using `django-admin startapp newapp`.
